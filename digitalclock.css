@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+    
+    
+}
+#myclockdisplay{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15%;
+    font-size: 100px;
+    color: black;
+
+}
+
+@media screen and (min-width: 1px) and (max-width: 262px) 
+{
+#myclockdisplay{
+    font-size: 25px;
+    margin-top: 80%;
+}   
+    
+}
+
+@media screen and (min-width: 263px) and (max-width: 400px) 
+{
+#myclockdisplay{
+    font-size: 50px;
+    margin-top: 50%;
+}   
+    
+}
+
+@media screen and (min-width: 400px) and (max-width: 525px) 
+{
+#myclockdisplay{
+    font-size: 75px;
+    margin-top: 35%;
+}   
+    
+}
